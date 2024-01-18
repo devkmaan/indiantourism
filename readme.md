@@ -1,2 +1,6 @@
 
-**This is Team Satkaar
+#Satkaar
+
+Check out the site here - 
+
+https://devkmaan.github.io/indiantourism/
