@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./utilities.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Satkaar</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">Satkaar</h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Services</a></li>
+          <li><a href="docs.html">Blog</a></li>
+          <li><a href="docs.html">About Us</a></li>
+        </ul>
+        <button onclick="window.location.href='login.html';">Login/SignUp</button>
+      </div>
+    </div>
+
+    <!-- Showcase area -->
+
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>Atithi Devo Bhava!</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque pariatur officia nobis obcaecati ipsam. Facilis consequuntur vero blanditiis!.
+          </p>
+          <a href="./features.html" class="btn btn-outline">Read More</a>
+        </div>
+        <div class="showcase-form card">
+          <h2>Book Homestays</h2>
+          <form>
+            <div class="form-control">
+              <label for="date">CheckIn Date</label>
+              <input type="date" name="name" placeholder="CheckIn Date" required />
+            </div>
+            <div class="form-control">
+              <label for="date">CheckOut Date</label>
+              <input type="date" name="name" placeholder="CheckOut Date" required />
+            </div>
+            <div class="form-control">
+              <input type="text" name="text" placeholder="Enter City" required />
+            </div>
+            <input type="submit" value="Search" class="btn btn-primary" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+
+    <section class="stats">
+      <div class="container">
+        <h3 class="stats-heading text-center my-1">
+          Welcome to the unified homestays management ecosystem. Lets explore the incredible India together!
+        </h3>
+        <div class="grid grid-3 text-center my-4">
+          <div>
+            <i class="fas fa-home fa-3x"></i>
+            <h3>Over 1 million</h3>
+            <p class="text-secondary">Homestays</p>
+          </div>
+          <div>
+            <i class="fas fa-piggy-bank fa-3x"></i>
+            <h3>Upto 50%</h3>
+            <p class="text-secondary">Savings</p>
+          </div>
+          <div>
+            <i class="fas fa-barcode fa-3x"></i>
+            <h3>Easy and Digital</h3>
+            <p class="text-secondary">Processes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLI -->
+
+    <section class="cli">
+      <div class="container grid">
+        <img src="./images/homestays.jpg" alt="cli images" />
+        <div class="card">
+          <h3>Explore the culture of India at her best!</h3>
+        </div>
+        <div class="card">
+          <h3>Explore local culture and heritage</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cloud -->
+
+    <section class="cloud bg-primary py-2 my-2">
+      <div class="container grid">
+        <div class="text-containe text-center">
+          <h2 class="lg">Share the space, share the joy!</h2>
+          <p class="lead my-1">
+            Hospitality and culture like you have never seen before!
+          </p>
+          <a href="./features.html" class="btn btn-dark">Read More</a>
+        </div>
+        <img src="./images/homestays2.jpg" alt="cloud image" />
+      </div>
+    </section>
+
+    <!-- Languages -->
+
+    <section class="languages">
+      <h2 class="md text-center my-2">Prominent Locations</h2>
+      <div class="container flex">
+        <div class="card">
+          <img src="./images/shimla.jpg" alt="node" />
+          <h4>Shimla</h4>
+        </div>
+        <div class="card">
+          <img src="./images/kashmir.jpg" alt="python" />
+          <h4>Kashmir</h4>
+        </div>
+        <div class="card">
+          <img src="./images/dehradoon.jpg" alt="csharp" />
+          <h4>Dehradoon</h4>
+        </div>
+        <div class="card">
+          <img src="./images/jaipur.jpg" alt="ruby" />
+          <h4>Jaipur</h4>
+        </div>
+        <div class="card">
+          <img src="./images//guwahati.webp" alt="php" />
+          <h4>Guwahati</h4>
+        </div>
+        <div class="card">
+          <img src="./images/Kerala.jpg" alt="scala" />
+          <h4>Kerala</h4>
+        </div>
+        <div class="card">
+          <img src="./images/andaman.webp" alt="" />
+          <h4>Andaman and Nicobar Islands</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer --> 
+
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid-3">
+        <div>
+          <h1>Satkaar</h1>
+          <div class="credits">
+            Designed by <a href="https://devkmaan.github.io/portfolio" class="design">Dev Kumar Maan</a>
+          </div>
+          <p>Copyright &copy; 2024</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">ContactUs</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="https://github.com/devkmaan"><i class="fab fa-github fa-2x"></i></a>
+          <a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/dev-kumar-maan-3a6369180"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://twitter.com/DevMaan43745742"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

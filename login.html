@@ -1,0 +1,54 @@
+<html>
+<head>
+  <title>Firebase Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="nav">
+    <h1 class="heading">Satkaar</h1>
+    <ul>
+      <li>Home</li>
+    <li>Services</li>
+    <li>Blogs</li>
+    <li>About Us</li>
+    <li id="user_para"></li>
+      
+  </ul>
+  </div>
+
+  <div id="login_div" class="main-div">
+    <h1 style="text-align: center; font-size: 60px;">Login</h1>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login to Account</button>
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    const firebaseConfig = {
+    apiKey: "AIzaSyBpsiI5NJRyzJO0jI7rUe7ncfAs4WyDgho",
+    authDomain: "satkaar-930f6.firebaseapp.com",
+    projectId: "satkaar-930f6",
+    storageBucket: "satkaar-930f6.appspot.com",
+    messagingSenderId: "511217610394",
+    appId: "1:511217610394:web:5760bc052500c880df3923"
+  };
+
+    
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="login.js"></script>
+
+</body>
+</html>
